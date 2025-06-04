@@ -16,19 +16,19 @@
 					<p>{{ news.details | linebreaks }}</p>					
 				</div>
 				<div class="col-md-4">
-					{% if news.photo.url == "/ media /images/news1.jpg" %}
+					{% if news.photo.url == "/media/images/news1.jpg" %}
 						<img style="width:100%; max-width:400px;" src="{% static 'images/news1.jpg' %}" alt="{{ news.photo.url }}">    
-					{% elif news.photo.url == "/ media /images/news2.jpg" %}
+					{% elif news.photo.url == "/media/images/news2.jpg" %}
 						<img style="width:100%; max-width:400px;" src="{% static 'images/news2.jpg' %}" alt="{{ news.photo.url }}">    
-					{% elif news.photo.url == "/ media /images/news3.jpg" %}
+					{% elif news.photo.url == "/media/images/news3.jpg" %}
 						<img style="width:100%; max-width:400px;" src="{% static 'images/news3.jpg' %}" alt="{{ news.photo.url }}">    
-					{% elif news.photo.url == "/ media /images/news4.jpg" %}
+					{% elif news.photo.url == "/media/images/news4.jpg" %}
 						<img style="width:100%; max-width:400px;" src="{% static 'images/news4.jpg' %}" alt="{{ news.photo.url }}">    
-					{% elif news.photo.url == "/ media /images/news5.jpg" %}
+					{% elif news.photo.url == "/media/images/news5.jpg" %}
 						<img style="width:100%; max-width:400px;" src="{% static 'images/news5.jpg' %}" alt="{{ news.photo.url }}">    
-					{% elif news.photo.url == "/ media /images/news6.jpg" %}
+					{% elif news.photo.url == "/media/images/news6.jpg" %}
 						<img style="width:100%; max-width:400px;" src="{% static 'images/news6.jpg' %}" alt="{{ news.photo.url }}">    
-					{% elif news.photo.url == "/ media /images/news7.jpg" %}
+					{% elif news.photo.url == "/media/images/news7.jpg" %}
 						<img style="width:100%; max-width:400px;" src="{% static 'images/news7.jpg' %}" alt="{{ news.photo.url }}">    
 					{% else %}
 						{% if news.photo.url != None %}
