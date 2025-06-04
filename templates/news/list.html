@@ -23,20 +23,20 @@
 				</div>
 				<div class="card-body">	
 					<div class="row">		
-						{% if n.photo.url == "/media/images/news1.jpeg" %}
-							<img style="width:100%; max-width:400px;" src="{% static 'images/news1.jpeg' %}" alt="{{ n.photo.url }}">    
-						{% elif n.photo.url == "/media/images/news2.jpeg" %}
-							<img style="width:100%; max-width:400px;" src="{% static 'images/news2.jpeg' %}" alt="{{ n.photo.url }}">    
-						{% elif n.photo.url == "/media/images/news3.jpeg" %}
-							<img style="width:100%; max-width:400px;" src="{% static 'images/news3.jpeg' %}" alt="{{ n.photo.url }}">    
-						{% elif n.photo.url == "/media/images/news4.jpeg" %}
-							<img style="width:100%; max-width:400px;" src="{% static 'images/news4.jpeg' %}" alt="{{ n.photo.url }}">    
-						{% elif n.photo.url == "/media/images/news5.jpeg" %}
-							<img style="width:100%; max-width:400px;" src="{% static 'images/news5.jpeg' %}" alt="{{ n.photo.url }}">    
-						{% elif n.photo.url == "/media/images/news6.jpeg" %}
-							<img style="width:100%; max-width:400px;" src="{% static 'images/news6.jpeg' %}" alt="{{ n.photo.url }}">    
-						{% elif n.photo.url == "/media/images/news7.jpeg" %}
-							<img style="width:100%; max-width:400px;" src="{% static 'images/news7.jpeg' %}" alt="{{ n.photo.url }}">    
+						{% if n.photo.url == "/media/images/news1.jpg" %}
+							<img style="width:100%; max-width:400px;" src="{% static 'images/news1.jpg' %}" alt="{{ n.photo.url }}">    
+						{% elif n.photo.url == "/media/images/news2.jpg" %}
+							<img style="width:100%; max-width:400px;" src="{% static 'images/news2.jpg' %}" alt="{{ n.photo.url }}">    
+						{% elif n.photo.url == "/media/images/news3.jpg" %}
+							<img style="width:100%; max-width:400px;" src="{% static 'images/news3.jpg' %}" alt="{{ n.photo.url }}">    
+						{% elif n.photo.url == "/media/images/news4.jpg" %}
+							<img style="width:100%; max-width:400px;" src="{% static 'images/news4.jpg' %}" alt="{{ n.photo.url }}">    
+						{% elif n.photo.url == "/media/images/news5.jpg" %}
+							<img style="width:100%; max-width:400px;" src="{% static 'images/news5.jpg' %}" alt="{{ n.photo.url }}">    
+						{% elif n.photo.url == "/media/images/news6.jpg" %}
+							<img style="width:100%; max-width:400px;" src="{% static 'images/news6.jpg' %}" alt="{{ n.photo.url }}">    
+						{% elif n.photo.url == "/media/images/news7.jpg" %}
+							<img style="width:100%; max-width:400px;" src="{% static 'images/news7.jpg' %}" alt="{{ n.photo.url }}">    
 						{% else %}
 							{% if n.photo.url != None %}
 								<img style="width:100%; max-width:400px;" src="{{ n.photo.url}}" alt="{{ n.photo.url }}">

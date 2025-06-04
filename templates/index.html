@@ -40,20 +40,20 @@
 			{% for c in news14 %}
 			<center><p><strong>{{ c.daten | date:"d.m.Y H:i" }}</strong></p></center>
 			<div class="row">
-				{% if c.photo.url == "/ media /images/news1.jpeg" %}
-					<img class="img-center3" src="{% static 'images/news1.jpeg' %}" alt="{{ c.photo.url }}">    
-				{% elif c.photo.url == "/ media /images/news2.jpeg" %}
-					<img class="img-center3" src="{% static 'images/news2.jpeg' %}" alt="{{ c.photo.url }}">    
-				{% elif c.photo.url == "/ media /images/news3.jpeg" %}
-					<img class="img-center3" src="{% static 'images/news3.jpeg' %}" alt="{{ c.photo.url }}">    
-				{% elif c.photo.url == "/ media /images/news4.jpeg" %}
-					<img class="img-center3" src="{% static 'images/news4.jpeg' %}" alt="{{ c.photo.url }}">    
-				{% elif c.photo.url == "/ media /images/news5.jpeg" %}
-					<img class="img-center3" src="{% static 'images/news5.jpeg' %}" alt="{{ c.photo.url }}">    
-				{% elif c.photo.url == "/ media /images/news6.jpeg" %}
-					<img class="img-center3" src="{% static 'images/news6.jpeg' %}" alt="{{ c.photo.url }}">    
-				{% elif c.photo.url == "/ media /images/news7.jpeg" %}
-					<img class="img-center3" src="{% static 'images/news7.jpeg' %}" alt="{{ c.photo.url }}">    
+				{% if c.photo.url == "/ media /images/news1.jpg" %}
+					<img class="img-center3" src="{% static 'images/news1.jpg' %}" alt="{{ c.photo.url }}">    
+				{% elif c.photo.url == "/ media /images/news2.jpg" %}
+					<img class="img-center3" src="{% static 'images/news2.jpg' %}" alt="{{ c.photo.url }}">    
+				{% elif c.photo.url == "/ media /images/news3.jpg" %}
+					<img class="img-center3" src="{% static 'images/news3.jpg' %}" alt="{{ c.photo.url }}">    
+				{% elif c.photo.url == "/ media /images/news4.jpg" %}
+					<img class="img-center3" src="{% static 'images/news4.jpg' %}" alt="{{ c.photo.url }}">    
+				{% elif c.photo.url == "/ media /images/news5.jpg" %}
+					<img class="img-center3" src="{% static 'images/news5.jpg' %}" alt="{{ c.photo.url }}">    
+				{% elif c.photo.url == "/ media /images/news6.jpg" %}
+					<img class="img-center3" src="{% static 'images/news6.jpg' %}" alt="{{ c.photo.url }}">    
+				{% elif c.photo.url == "/ media /images/news7.jpg" %}
+					<img class="img-center3" src="{% static 'images/news7.jpg' %}" alt="{{ c.photo.url }}">    
 				{% else %}
 					{% if c.photo.url != None %}
 						<img class="img-center3" src="{{ c.photo.url}}" alt="{{ c.photo.url }}">
