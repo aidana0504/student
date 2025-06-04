@@ -33,7 +33,7 @@ SECRET_KEY = 'django-insecure-0#h#*&bwp23y1zcw4_%5p=gaa4c=0%u6$e^@^l_71-(-mz$_4b
 DEBUG = False
 #DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'student-journal.onrender.com',]
+ALLOWED_HOSTS = ['127.0.0.1', 'student-journal-p0a6.onrender.com',]
 
 # Application definition
 
