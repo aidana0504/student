@@ -1,0 +1,430 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-18 12:19+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+#: .\journal\forms.py:29 .\journal\forms.py:51 .\journal\models.py:38
+#: .\templates\faculty\index.html:14
+msgid "faculty_title"
+msgstr "Факультет атауы"
+
+#: .\journal\forms.py:65 .\journal\models.py:52
+#: .\templates\speciality\index.html:15
+msgid "speciality_title"
+msgstr "Мамандық атауы"
+
+#: .\journal\forms.py:83 .\journal\forms.py:121 .\journal\models.py:70
+#: .\templates\gruppa\index.html:14
+msgid "gruppa_cipher"
+msgstr "Топ коды"
+
+#: .\journal\forms.py:91
+msgid "Minimum age 16 years old"
+msgstr "Кем дегенде 16 жас"
+
+#: .\journal\forms.py:93 .\journal\forms.py:128 .\journal\forms.py:169
+#: .\journal\forms.py:189
+msgid "Wrong date and time format"
+msgstr "Күн мен уақыт пішімі дұрыс емес"
+
+#: .\journal\forms.py:106 .\journal\forms.py:120 .\journal\models.py:118
+#: .\templates\discipline\index.html:14
+msgid "discipline_title"
+msgstr "Пәннің атауы"
+
+#: .\journal\forms.py:143 .\templates\report\report_2.html:43
+#: .\templates\schedule\create.html:5 .\templates\schedule\edit.html:5
+#: .\templates\schedule\read.html:5 .\templates\visit\index.html:14
+#: .\templates\visit\list.html:13 .\templates\visit\read.html:12
+msgid "schedule"
+msgstr "Кесте"
+
+#: .\journal\forms.py:144 .\journal\forms.py:162
+#: .\templates\rating\index.html:18 .\templates\rating\list.html:17
+#: .\templates\report\report_2.html:44 .\templates\report\report_3.html:47
+#: .\templates\student\create.html:5 .\templates\student\edit.html:5
+#: .\templates\student\read.html:5 .\templates\visit\index.html:15
+#: .\templates\visit\list.html:14
+msgid "student"
+msgstr "Студент"
+
+#: .\journal\forms.py:161 .\templates\discipline\create.html:5
+#: .\templates\discipline\edit.html:5 .\templates\discipline\read.html:5
+#: .\templates\index.html:19 .\templates\rating\index.html:17
+#: .\templates\rating\list.html:16 .\templates\rating\read.html:15
+#: .\templates\report\report_1.html:44 .\templates\report\report_3.html:46
+#: .\templates\schedule\index.html:15 .\templates\schedule\list.html:41
+#: .\templates\schedule\read.html:12
+msgid "discipline"
+msgstr "Академиялық тәртіп"
+
+#: .\journal\models.py:51 .\templates\speciality\index.html:14
+#: .\templates\speciality\read.html:9
+msgid "speciality_cipher"
+msgstr "Мамандық коды"
+
+#: .\journal\models.py:72 .\templates\gruppa\index.html:16
+msgid "language"
+msgstr "Оқыту тілі"
+
+#: .\journal\models.py:93 .\templates\student\index.html:14
+msgid "full_name"
+msgstr "Толық аты"
+
+#: .\journal\models.py:94 .\templates\student\index.html:15
+#: .\templates\student\read.html:12
+msgid "sex"
+msgstr "Жыныс (Е/Ә)"
+
+#: .\journal\models.py:95 .\templates\student\index.html:16
+#: .\templates\student\read.html:13
+msgid "iin"
+msgstr "ЖСН"
+
+#: .\journal\models.py:96 .\templates\student\index.html:17
+#: .\templates\student\read.html:14
+msgid "birthday"
+msgstr "Туған күні"
+
+#: .\journal\models.py:97 .\templates\student\index.html:18
+#: .\templates\student\read.html:15
+msgid "phone"
+msgstr "Телефон"
+
+#: .\journal\models.py:98 .\templates\student\index.html:19
+#: .\templates\student\read.html:16
+msgid "address"
+msgstr "Мекенжай"
+
+#: .\journal\models.py:99
+msgid "email"
+msgstr "Email"
+
+#: .\journal\models.py:131 .\templates\index.html:18
+#: .\templates\report\report_1.html:43 .\templates\schedule\index.html:14
+#: .\templates\schedule\list.html:40
+msgid "dates"
+msgstr "Күні мен уақыты"
+
+#: .\journal\models.py:153 .\templates\report\report_2.html:45
+#: .\templates\visit\index.html:16 .\templates\visit\list.html:15
+#: .\templates\visit\read.html:14
+msgid "visited"
+msgstr "Бару (иә/жоқ)"
+
+#: .\journal\models.py:171 .\templates\rating\index.html:14
+#: .\templates\rating\list.html:13 .\templates\report\report_3.html:43
+msgid "dater"
+msgstr "Күні"
+
+#: .\journal\models.py:172 .\templates\rating\index.html:15
+#: .\templates\rating\list.html:14 .\templates\rating\read.html:13
+#: .\templates\report\report_3.html:44
+msgid "course"
+msgstr "Курс"
+
+#: .\journal\models.py:173 .\templates\rating\index.html:16
+#: .\templates\rating\list.html:15 .\templates\rating\read.html:14
+#: .\templates\report\report_3.html:45
+msgid "semester"
+msgstr "Семестр"
+
+#: .\journal\models.py:176 .\templates\rating\index.html:19
+#: .\templates\rating\list.html:18 .\templates\rating\read.html:16
+#: .\templates\report\report_3.html:48
+msgid "value"
+msgstr "Баға"
+
+#: .\journal\models.py:195 .\templates\news\index.html:14
+msgid "daten"
+msgstr "Күні"
+
+#: .\journal\models.py:196
+msgid "news_title"
+msgstr "Жаңалықтар тақырыбы"
+
+#: .\journal\models.py:197
+msgid "news_details"
+msgstr "Егжей"
+
+#: .\journal\models.py:198
+msgid "news_photo"
+msgstr "Фото"
+
+#: .\templates\base.html:44
+msgid "Home"
+msgstr "Үй"
+
+#: .\templates\base.html:46 .\templates\base.html:67
+#: .\templates\report\index.html:12 .\templates\report\report_1.html:37
+#: .\templates\schedule\index.html:6
+msgid "schedules"
+msgstr "Кесте"
+
+#: .\templates\base.html:49 .\templates\base.html:73
+#: .\templates\news\index.html:3 .\templates\news\index.html:6
+#: .\templates\news\list.html:4 .\templates\news\list.html:8
+msgid "newss"
+msgstr "Жаңалықтар"
+
+#: .\templates\base.html:52
+msgid "contacts"
+msgstr "Байланыс"
+
+#: .\templates\base.html:61 .\templates\faculty\index.html:6
+msgid "facultys"
+msgstr "Факультеттер"
+
+#: .\templates\base.html:62 .\templates\speciality\index.html:6
+msgid "specialitys"
+msgstr "Мамандықтар"
+
+#: .\templates\base.html:63 .\templates\gruppa\index.html:6
+msgid "gruppas"
+msgstr "Топтар"
+
+#: .\templates\base.html:64 .\templates\student\index.html:6
+msgid "students"
+msgstr "Студенттер"
+
+#: .\templates\base.html:65 .\templates\discipline\index.html:6
+msgid "disciplines"
+msgstr "Оқу пәндері"
+
+#: .\templates\base.html:68 .\templates\base.html:75
+#: .\templates\report\index.html:13 .\templates\report\report_2.html:37
+#: .\templates\visit\index.html:6 .\templates\visit\list.html:6
+msgid "visits"
+msgstr "Сапарлар"
+
+#: .\templates\base.html:69 .\templates\base.html:76
+#: .\templates\rating\index.html:6 .\templates\rating\list.html:6
+msgid "ratings"
+msgstr "Бағалау"
+
+#: .\templates\base.html:71
+msgid "report"
+msgstr "Есеп"
+
+#: .\templates\base.html:79
+msgid "My account"
+msgstr "Менің есептік жазбам"
+
+#: .\templates\base.html:80
+msgid "Change password"
+msgstr "Құпия сөзді өзгерту"
+
+#: .\templates\base.html:82
+msgid "Log out"
+msgstr "Шығу"
+
+#: .\templates\base.html:87
+msgid "Log In"
+msgstr "Кіру"
+
+#: .\templates\base.html:88
+msgid "Sign up"
+msgstr "Тіркелу"
+
+#: .\templates\contact.html:7
+msgid "Contacts"
+msgstr "Байланыс"
+
+#: .\templates\discipline\create.html:3 .\templates\discipline\index.html:7
+#: .\templates\faculty\create.html:3 .\templates\faculty\index.html:7
+#: .\templates\gruppa\create.html:3 .\templates\gruppa\index.html:7
+#: .\templates\news\index.html:9 .\templates\rating\create.html:3
+#: .\templates\rating\index.html:7 .\templates\schedule\create.html:3
+#: .\templates\schedule\index.html:7 .\templates\speciality\create.html:3
+#: .\templates\speciality\index.html:7 .\templates\student\create.html:3
+#: .\templates\student\index.html:7 .\templates\visit\create.html:3
+#: .\templates\visit\index.html:7
+msgid "Add"
+msgstr "Қосу"
+
+#: .\templates\discipline\create.html:12 .\templates\discipline\edit.html:12
+#: .\templates\faculty\create.html:12 .\templates\faculty\edit.html:12
+#: .\templates\gruppa\create.html:12 .\templates\gruppa\edit.html:12
+#: .\templates\news\create.html:13 .\templates\news\edit.html:13
+#: .\templates\rating\create.html:12 .\templates\rating\edit.html:12
+#: .\templates\schedule\create.html:12 .\templates\schedule\edit.html:12
+#: .\templates\schedule\visit.html:27 .\templates\speciality\create.html:12
+#: .\templates\speciality\edit.html:12 .\templates\student\create.html:12
+#: .\templates\student\edit.html:12 .\templates\visit\create.html:12
+#: .\templates\visit\edit.html:12
+msgid "Save"
+msgstr "Сақтау"
+
+#: .\templates\discipline\create.html:13 .\templates\discipline\edit.html:13
+#: .\templates\discipline\read.html:18 .\templates\faculty\create.html:13
+#: .\templates\faculty\edit.html:13 .\templates\faculty\read.html:18
+#: .\templates\gruppa\create.html:13 .\templates\gruppa\edit.html:13
+#: .\templates\gruppa\read.html:20 .\templates\news\create.html:14
+#: .\templates\news\edit.html:14 .\templates\news\read.html:29
+#: .\templates\rating\create.html:13 .\templates\rating\edit.html:13
+#: .\templates\rating\read.html:23 .\templates\report\report_1.html:60
+#: .\templates\report\report_2.html:68 .\templates\report\report_3.html:66
+#: .\templates\schedule\create.html:13 .\templates\schedule\edit.html:13
+#: .\templates\schedule\read.html:20 .\templates\schedule\visit.html:28
+#: .\templates\speciality\create.html:13 .\templates\speciality\edit.html:13
+#: .\templates\speciality\read.html:20 .\templates\student\create.html:13
+#: .\templates\student\edit.html:13 .\templates\student\read.html:25
+#: .\templates\visit\create.html:13 .\templates\visit\edit.html:13
+#: .\templates\visit\read.html:27
+msgid "Back"
+msgstr "Артқа"
+
+#: .\templates\discipline\edit.html:3 .\templates\discipline\index.html:24
+#: .\templates\faculty\edit.html:3 .\templates\faculty\index.html:24
+#: .\templates\gruppa\edit.html:3 .\templates\gruppa\index.html:28
+#: .\templates\news\edit.html:3 .\templates\news\index.html:30
+#: .\templates\rating\edit.html:3 .\templates\rating\index.html:34
+#: .\templates\schedule\edit.html:3 .\templates\schedule\index.html:32
+#: .\templates\speciality\edit.html:3 .\templates\speciality\index.html:28
+#: .\templates\student\edit.html:3 .\templates\student\index.html:38
+#: .\templates\visit\edit.html:3 .\templates\visit\index.html:36
+msgid "Change"
+msgstr "Өзгерту"
+
+#: .\templates\discipline\index.html:3 .\templates\faculty\index.html:3
+#: .\templates\gruppa\index.html:3 .\templates\rating\index.html:3
+#: .\templates\rating\list.html:3 .\templates\schedule\index.html:3
+#: .\templates\schedule\list.html:3 .\templates\schedule\visit.html:3
+#: .\templates\speciality\index.html:3 .\templates\student\index.html:3
+#: .\templates\visit\index.html:3 .\templates\visit\list.html:3
+msgid "List"
+msgstr "Тізім"
+
+#: .\templates\discipline\index.html:25 .\templates\discipline\read.html:3
+#: .\templates\faculty\index.html:25 .\templates\faculty\read.html:3
+#: .\templates\gruppa\index.html:29 .\templates\gruppa\read.html:3
+#: .\templates\news\index.html:31 .\templates\rating\index.html:35
+#: .\templates\rating\read.html:3 .\templates\schedule\index.html:33
+#: .\templates\schedule\read.html:3 .\templates\speciality\index.html:29
+#: .\templates\speciality\read.html:3 .\templates\student\index.html:39
+#: .\templates\student\read.html:3 .\templates\visit\index.html:37
+#: .\templates\visit\read.html:3
+msgid "View"
+msgstr "Көру"
+
+#: .\templates\discipline\index.html:26 .\templates\faculty\index.html:26
+#: .\templates\gruppa\index.html:30 .\templates\news\index.html:32
+#: .\templates\rating\index.html:36 .\templates\schedule\index.html:34
+#: .\templates\speciality\index.html:30 .\templates\student\index.html:40
+#: .\templates\visit\index.html:38
+msgid "Delete"
+msgstr "Жою"
+
+#: .\templates\faculty\create.html:5 .\templates\faculty\edit.html:5
+#: .\templates\faculty\read.html:5 .\templates\speciality\index.html:16
+#: .\templates\speciality\read.html:15
+msgid "faculty"
+msgstr "Факультет"
+
+#: .\templates\gruppa\create.html:5 .\templates\gruppa\edit.html:5
+#: .\templates\gruppa\read.html:5 .\templates\index.html:20
+#: .\templates\report\report_1.html:17 .\templates\report\report_1.html:45
+#: .\templates\report\report_2.html:17 .\templates\report\report_3.html:17
+#: .\templates\schedule\index.html:16 .\templates\schedule\list.html:16
+#: .\templates\schedule\list.html:42 .\templates\schedule\read.html:15
+#: .\templates\student\index.html:21 .\templates\student\read.html:20
+msgid "gruppa"
+msgstr "Топ"
+
+#: .\templates\gruppa\index.html:15 .\templates\speciality\create.html:5
+#: .\templates\speciality\edit.html:5 .\templates\speciality\read.html:5
+msgid "speciality"
+msgstr "Мамандығы"
+
+#: .\templates\index.html:4 .\templates\registration\logged_out.html:4
+#: .\templates\registration\login.html:4
+#: .\templates\registration\password_change_done.html:3
+#: .\templates\registration\password_change_form.html:3
+#: .\templates\registration\password_reset_complete.html:4
+#: .\templates\registration\password_reset_confirm.html:4
+#: .\templates\registration\password_reset_done.html:4
+#: .\templates\registration\password_reset_form.html:4
+#: .\templates\registration\register_done.html:4
+msgid "App Name"
+msgstr "Student"
+
+#: .\templates\index.html:33
+msgid "all schedule"
+msgstr "Барлық кесте"
+
+#: .\templates\index.html:52
+msgid "all newss"
+msgstr "Барлық жаңалықтар"
+
+#: .\templates\news\create.html:3
+msgid "Create"
+msgstr "Қосу"
+
+#: .\templates\news\create.html:6 .\templates\news\edit.html:6
+#: .\templates\news\read.html:7
+msgid "news"
+msgstr "Жаңалықтар"
+
+#: .\templates\news\index.html:15
+msgid "title"
+msgstr "Тақырып"
+
+#: .\templates\news\list.html:14
+msgid "Search"
+msgstr "Іздеу"
+
+#: .\templates\news\list.html:15 .\templates\report\report_1.html:32
+#: .\templates\report\report_2.html:32 .\templates\report\report_3.html:32
+#: .\templates\schedule\list.html:31
+msgid "Reset"
+msgstr "Келтіру"
+
+#: .\templates\news\read.html:4
+msgid "Read"
+msgstr "Көру"
+
+#: .\templates\rating\create.html:5 .\templates\rating\edit.html:5
+#: .\templates\rating\read.html:5 .\templates\report\index.html:14
+#: .\templates\report\report_3.html:37
+msgid "rating"
+msgstr "Баға"
+
+#: .\templates\report\index.html:4 .\templates\report\index.html:8
+#: .\templates\report\report_1.html:4 .\templates\report\report_1.html:8
+#: .\templates\report\report_2.html:4 .\templates\report\report_2.html:8
+#: .\templates\report\report_3.html:4 .\templates\report\report_3.html:8
+msgid "Reports"
+msgstr "Есептер"
+
+#: .\templates\report\report_1.html:13 .\templates\report\report_2.html:13
+#: .\templates\report\report_3.html:13 .\templates\schedule\list.html:12
+msgid "Date range"
+msgstr "Күндер ауқымы"
+
+#: .\templates\report\report_1.html:31 .\templates\report\report_2.html:31
+#: .\templates\report\report_3.html:31 .\templates\schedule\list.html:30
+msgid "Go"
+msgstr "Орындау"
+
+#: .\templates\schedule\index.html:27 .\templates\schedule\visit.html:6
+#: .\templates\visit\create.html:5 .\templates\visit\edit.html:5
+#: .\templates\visit\read.html:5
+msgid "visit"
+msgstr "Бару"
+
+#: .\templates\student\index.html:20 .\templates\student\read.html:17
+msgid "EMail"
+msgstr "E-Mail"
